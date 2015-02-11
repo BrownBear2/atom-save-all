@@ -1,7 +1,7 @@
 {
   "name": "atom-save-all",
   "main": "./lib/atom-save-all",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Save all modified paneItems on CTRL-s",
   "activationCommands": {
     "atom-workspace": "atom-save-all:saveAll"
@@ -11,6 +11,5 @@
   "engines": {
     "atom": ">0.50.0"
   },
-  "dependencies": {
-  }
+  "dependencies": {}
 }
