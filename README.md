@@ -1,5 +1,6 @@
 # atom-save-all package
 
-A short description of your package.
+Saves all open editor tabs that have changes. Ignores all other.
+Hotkey overwrites ctrl-s.
 
 ![A screenshot of your package](https://f.cloud.github.com/assets/69169/2290250/c35d867a-a017-11e3-86be-cd7c5bf3ff9b.gif)
