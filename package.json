@@ -1,0 +1,16 @@
+{
+  "name": "atom-save-all",
+  "main": "./lib/atom-save-all",
+  "version": "0.1.0",
+  "description": "Save all modified paneItems",
+  "activationCommands": {
+    "atom-workspace": "atom-save-all:saveAll"
+  },
+  "repository": "https://github.com/atom/atom-save-all",
+  "license": "MIT",
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "dependencies": {
+  }
+}
