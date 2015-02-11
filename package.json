@@ -6,7 +6,7 @@
   "activationCommands": {
     "atom-workspace": "atom-save-all:saveAll"
   },
-  "repository": "https://github.com/atom/atom-save-all",
+  "repository": "https://github.com/BrownBear2/atom-save-all",
   "license": "MIT",
   "engines": {
     "atom": ">0.50.0"
