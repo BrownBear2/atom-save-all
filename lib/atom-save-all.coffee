@@ -8,7 +8,8 @@ module.exports = AtomSaveAll =
   deactivate: ->
 
   saveAll: ->
-    current = atom.workspace.getActiveEditor()
+    current = atom.workspace?.getActiveEditor?()
+    current ?= atom.workspace?.getActiveTextEditor?()
     if current? and current.getURI?()? and current.isModified?() and paneItem?.getPath?()? and (!fs.existsSync(paneItem.getPath()) or !fs.statSync(current.getPath()).isFile())
       current.save()
 
